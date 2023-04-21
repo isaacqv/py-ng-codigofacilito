@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  margin: 0;
+  background-color: #CFFCFF;
+  flex: 1;
+  position: relative;
+
+  .cody-img{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+  }
+}
